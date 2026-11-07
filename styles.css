@@ -148,7 +148,7 @@ img { display: block; max-width: 100%; }
 
 .portrait {
   justify-self: center;
-  width: min(100%, 23rem);
+  width: min(100%, 28rem);
   padding: 9px 9px 0;
   background: var(--surface);
   border: 1px solid var(--line);
@@ -156,7 +156,7 @@ img { display: block; max-width: 100%; }
   box-shadow: var(--shadow);
 }
 
-.portrait img { width: 100%; height: auto; aspect-ratio: 2 / 3; border-radius: 10px; }
+.portrait img { width: 100%; height: auto; border-radius: 10px; }
 .portrait figcaption { display: flex; align-items: center; gap: .56rem; min-height: 43px; padding: .5rem .3rem; color: var(--ink); font-size: .83rem; font-weight: 700; }
 .portrait-dot { color: var(--accent); flex: none; }
 .portrait-index { font: .66rem/1 var(--mono); margin-left: auto; color: var(--muted); white-space: nowrap; }
